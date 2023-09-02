@@ -1,11 +1,17 @@
 class AppStrings {
-  static String onboardingHeading1 =
+  static const String onboardingHeading1 =
       """Your holiday\nshopping\ndelivered to Screen\none""";
-  static String onboardingHeading2 =
+  static const String onboardingHeading2 =
       """Your holiday\nshopping\ndelivered to Screen\ntwo""";
 
-  static String onboardingText1 =
+  static const String onboardingText1 =
       "There's something for everyone\nto enjoy with Sweet Shop\nFavourites Screen 1";
-  static String onboardingText2 =
+  static const String onboardingText2 =
       "There's something for everyone\nto enjoy with Sweet Shop\nFavourites Screen 2";
+  static const String userName = 'Halal';
+  static const String address = 'Green Way 3000, Sylhet';
+
+  static const String deliveryTime = '1 hour';
+  static const String fieldText = 'Search Products or store';
+  static const String GroceryText = 'Deals on Fruits & Tea';
 }

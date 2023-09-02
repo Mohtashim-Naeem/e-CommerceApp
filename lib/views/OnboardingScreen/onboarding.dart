@@ -1,6 +1,6 @@
 import 'package:e_comerce_mini_project/constants/colors.dart';
 import 'package:e_comerce_mini_project/constants/images.dart';
-import 'package:e_comerce_mini_project/views/splash_screen/widgets/button.dart';
+import 'package:e_comerce_mini_project/views/OnboardingScreen/widgets/button.dart';
 import 'package:flutter/material.dart';
 
 import '../../constants/string.dart';
