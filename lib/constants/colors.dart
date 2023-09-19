@@ -10,8 +10,10 @@ class AppColors {
   static const Color darkestGrey = Color(0xff354349);
   static const Color darkGrey = Color.fromARGB(206, 104, 118, 128);
   static const Color product = Color(0xffF8F9FB);
-  static const Color lightGrey = Color(0xffB2BBCE);
+  static const Color lightGrey = Color.fromARGB(74, 197, 205, 210);
   static const Color lighterGrey = Color(0xffA9B4BC);
   static const Color lightestGrey = Color(0xffC5CDD2);
   static const Color bannergrey = Color(0xffE4DDCB);
 }
+
+// B2BBCE

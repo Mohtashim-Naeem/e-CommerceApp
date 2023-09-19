@@ -1,6 +1,8 @@
 import 'package:e_comerce_mini_project/constants/colors.dart';
 import 'package:e_comerce_mini_project/constants/images.dart';
 import 'package:e_comerce_mini_project/views/OnboardingScreen/widgets/button.dart';
+import 'package:e_comerce_mini_project/views/home/grocery_home.dart';
+import 'package:e_comerce_mini_project/views/home/home.dart';
 import 'package:flutter/material.dart';
 
 import '../../constants/string.dart';
@@ -33,7 +35,7 @@ class _SplashScreenState extends State<SplashScreen> {
                   child: PageView(
                     controller: controller,
                     onPageChanged: (index) {
-                      print(index);
+                      // print(index);
                       setState(() {
                         page_no = index;
                       });
@@ -144,7 +146,12 @@ class _SplashScreenState extends State<SplashScreen> {
                       child: OnboardButton(
                         buttonText: 'Get Started',
                         buttonColor: AppColors.white,
-                        onPress: () {},
+                        onPress: () {
+                          Navigator.pushReplacement(
+                              context,
+                              MaterialPageRoute(
+                                  builder: ((context) => Home())));
+                        },
                       ),
                     ),
                   ],

@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 
-import '../../../constants/colors.dart';
-import '../../../data.dart';
+import '../constants/colors.dart';
+import '../data/data.dart';
 
 class CartIndicator extends StatelessWidget {
-  const CartIndicator({super.key});
+  CartIndicator({super.key});
+  final cartToSet = cart.toSet();
 
   @override
   Widget build(BuildContext context) {
@@ -17,7 +18,7 @@ class CartIndicator extends StatelessWidget {
           fontWeight: FontWeight.w600,
         ),
         // cart_value.toString()
-        cart.length.toString(),
+        cartToSet.length.toString(),
       ),
     );
   }

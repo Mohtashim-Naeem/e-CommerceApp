@@ -12,6 +12,9 @@ class AppStrings {
   static const String address = 'Green Way 3000, Sylhet';
 
   static const String deliveryTime = '1 hour';
+  static const int discount = 25;
+
   static const String fieldText = 'Search Products or store';
-  static const String GroceryText = 'Deals on Fruits & Tea';
+  static const String GroceryText = 'Popular';
+  static const String priductText = 'Thin Choise Top';
 }

@@ -4,7 +4,8 @@ import '../../../constants/colors.dart';
 import '../../../constants/string.dart';
 
 class CustomTextfiedls extends StatelessWidget {
-  const CustomTextfiedls({super.key});
+  final Color? bgcolor;
+  const CustomTextfiedls({super.key, this.bgcolor});
 
   @override
   Widget build(BuildContext context) {
@@ -12,7 +13,7 @@ class CustomTextfiedls extends StatelessWidget {
       style: TextStyle(fontSize: 15, color: AppColors.white),
       decoration: InputDecoration(
         prefixIcon: Icon(Icons.search_rounded),
-        prefixIconColor: AppColors.white,
+        prefixIconColor: bgcolor,
         label: Text(AppStrings.fieldText),
         floatingLabelBehavior: FloatingLabelBehavior.never,
         labelStyle: TextStyle(fontSize: 15, color: AppColors.lightGrey),
